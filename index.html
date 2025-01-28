@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="todo">
+      <div class="todo-heading">
+        <h2>To-do list</h2>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search" />
+          <button id="search-btn">
+            <img
+              src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"
+              alt="Search"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="input">
+        <input
+          type="text"
+          class="input-field"
+          id="todoInput"
+          placeholder="Add your task"
+        />
+        <button class="btn">Add</button>
+      </div>
+      <ul class="scroll">
+        <li id="todoList"></li>
+      </ul>
+      <div>
+        <hr class="counter" />
+        <div class="counter-container">
+          <p><span id="todoCount">0</span> items total</p>
+          <button id="deleteButton">Delete All</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <p class="made-by">Made By</p>
+        <p class="author">Shikhar Mishra</p>
+      </div>
+    </footer>
+  </body>
+</html>
